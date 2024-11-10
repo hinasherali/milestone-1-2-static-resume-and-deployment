@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+  }
+  
+  .resume-container {
+    margin-top: 1px;
+    width: 800px;
+    height: auto;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    position:sticky
+    
+  }
+  
+  .sidebar {
+    width: 30%;
+    background-color: #2c3e50;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-section h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .title {
+    font-size: 14px;
+    color: #bdc3c7;
+    margin-bottom: 10px;
+  }
+  
+  .summary {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section, .education-section, .expertise-section, .language-section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    font-size: 12px;
+  }
+  
+  .main-content {
+    width: 70%;
+    padding: 20px;
+  }
+  
+  .experience-section, .reference-section {
+    margin-bottom: 20px;
+  }
+  
+  .experience-section h2, .reference-section h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .job, .reference {
+    margin-bottom: 20px;
+  }
+  
+  .years {
+    font-size: 14px;
+    font-weight: bold;
+    color: #7f8c8d;
+  }
+  
+  .company {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .position {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .job-description {
+    font-size: 12px;
+    color: #7f8c8d;
+  }
+  
+  .outer-container{
+    padding: 0px; 
+    border: 2px solid #436774; 
+    border-radius: 12px; 
+    display:inline-block;
+
+  }
+
+  .contact-section,
+.education-section,
+.expertise-section {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.expertise-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left; 
+}
+
+.expertise-list li {
+  margin-bottom: 5px; 
+  font-size: 0.9em;
+  color: #c2bdbd;   
+}
+
+.section p {
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin-bottom: 10px; 
+}
+
+.section p:last-child {
+  margin-bottom: 0; 
+}
+
+
+.resume {
+  display: flex;
+  max-width: 900px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow:hidden; 
+}
+
+.main-content {
+  width: 70%;
+  padding: 20px;
+}
+
+
+body {
+  background: linear-gradient(120deg, #a6dd41, #1f2833, #084b47);
+  background-size: 400% 400%;
+  animation: gradientBackground 15s ease infinite;
+  margin: 0;
+  padding: 0;
+}
+
+
+@keyframes gradientBackground {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+
+.resume {
+  background: rgba(255, 255, 255, 0.9); 
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 20px auto;
+  max-width: 900px;
+}
