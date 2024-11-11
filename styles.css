@@ -196,3 +196,9 @@ body {
   margin: 20px auto;
   max-width: 900px;
 }
+@media (max-width: 768px) {
+  .resume-container {
+      width: 100%;
+      padding: 10px;
+  }
+}
